@@ -1,0 +1,32 @@
+.homeHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-bottom: 0%;
+}
+
+section {
+    padding: 120px 0;
+
+}
+
+.home{
+    
+}
+
+.testimonials{
+    background-color:#ced4da;
+}
+
+#mainNav{
+    background-color:#212529;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1030;
+    border-bottom: 1px solid black;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
