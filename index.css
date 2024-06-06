@@ -46,7 +46,7 @@ section {
 
 
 /* For screens between 400px and 500px */
-@media (min-width: 400px) and (max-width: 500px) {
+@media (min-width: 400px) and (max-width: 600px) {
     #header-two {
         font-size: 1rem;
         /* Adjust font size for screens between 400px and 500px */
