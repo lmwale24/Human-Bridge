@@ -11,8 +11,7 @@
 #header-two {
     font-size: 28px;
     font-weight: bold;
-    /* font-family: Fjalla One, sans-serif; */
-    unicode-bidi: isolate;
+    color: green;
 }
 
 section {
@@ -59,8 +58,8 @@ section {
 @media (max-width: 400px) and (max-width: 600px) {
     #header-two {
         font-size: 1rem;
-        /* Adjust font size for screens between 400px and 500px */
+        color: green;
         line-height: 1.2;
-        /* Adjust line height for screens between 400px and 500px */
+        
     }
 }
