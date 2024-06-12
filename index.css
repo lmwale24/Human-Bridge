@@ -54,3 +54,13 @@ section {
         /* Adjust line height for screens between 400px and 500px */
     }
 }
+
+/* For screens between 400px and 500px */
+@media (max-width: 400px) and (max-width: 600px) {
+    #header-two {
+        font-size: 1rem;
+        /* Adjust font size for screens between 400px and 500px */
+        line-height: 1.2;
+        /* Adjust line height for screens between 400px and 500px */
+    }
+}
