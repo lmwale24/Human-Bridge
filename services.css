@@ -6,8 +6,8 @@
     --bs-teal: #0085A1;
     --bs-cyan: #0dcaf0;
     --bs-danger: #dc3545;
-    --primary-color: #F30053;
-    --secondary-color:#f2f2f2;
+    --primary-color: #6AD6E1;
+    --secondary-color: #f2f2f2;
 }
 
 .homeHeader {
@@ -23,7 +23,7 @@
 #header-two {
     font: bold 28px sans-serif;
     letter-spacing: 5px;
-    color:#2F4F4F;
+    color: #2F4F4F;
 }
 
 section {
@@ -34,23 +34,24 @@ section {
 .testimonials-Sect {
     background-color: #f0f0f0;
     padding: 20px;
-    
+
 }
 
-   #mainNav .navbar-nav>li.nav-item>a.nav-link {
-       color: #2F4F4F;
-   }
+#mainNav .navbar-nav>li.nav-item>a.nav-link {
+    color: #2F4F4F;
+}
 
-   #mainNav .navbar-nav>li.nav-item>a.nav-link:hover{
-        color: var(--primary-color);
-   }
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: var(--primary-color);
+}
 
 
 
 
 .navbar-expand-lg .navbar-nav .nav-link {
     /* color: var(--primary-color) !important; */
-    transition: color 0.3s ease; /* Smooth transition for color change */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
 }
 
 
@@ -67,11 +68,11 @@ section {
 
 .btn-primary {
     transition: background-color 0.3s ease, border-color 0.3s ease;
-    
+
 }
 
 .btn-primary:hover {
-    background-color: var( --primary-color);
+    background-color: var(--primary-color);
     border-color: #F30053;
 }
 
