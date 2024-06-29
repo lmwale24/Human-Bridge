@@ -223,6 +223,22 @@ section {
     }
 }
 
+@media (max-width: 430px) {
+    .btn-primary {
+            font-size: 10px;
+        } 
+        /* Media query for screens smaller than 430px */
+            .home {
+                padding: 20px;
+            }
+    
+            #header-two {
+                font-size: 2em;
+                line-height: 1.2;
+            }
+        }
+    
+
 
 
 
