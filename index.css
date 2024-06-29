@@ -105,7 +105,7 @@ section {
 }
 
 #impact .card-title {
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: bold;
     color: #F30053;
 }
@@ -140,7 +140,7 @@ section {
 }
 
 #help .card-title {
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: bold;
     color: #F30053;
 }
@@ -148,6 +148,31 @@ section {
 #help .card-text {
     font-size: 1.2em;
 }
+
+#IconHandshake{
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+#groupIcon{
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
+#donateIcon{
+    font-size: 1.7em;
+    color: var(--primary-color);
+}
+
+#Comment-icon{
+    font-size: 1.7em;
+    color: var(--primary-color);
+}
+
+#Volunteer-icon{
+    font-size: 1.7em;
+    color: var(--primary-color);
+}
+
 
 @media (max-width: 1200px) {
     #header-two {
@@ -158,7 +183,12 @@ section {
 @media (max-width: 900px) {
     #header-two {
         font-size: 1.2rem;
+        background-attachment: scroll;
     }
+
+
+
+
 }
 
 @media (max-width: 720px) {
@@ -171,6 +201,18 @@ section {
     #header-two {
         font-size: 1rem;
         letter-spacing: 2px;
+    }
+
+    #help .section-heading {
+        font-size: 1em;
+    }
+
+    .btn-primary{
+        font-size: 12px;
+    }
+    .card {
+        padding: 10px;
+
     }
 }
 

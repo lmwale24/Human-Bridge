@@ -22,3 +22,47 @@
 }
 
 
+
+.masthead {
+    height: 1000px;
+}
+/* media query for images */
+
+/* media screen for 900px */
+@media (max-width: 900px) {
+    #header-two {
+        font-size: 1.2rem;
+    }
+
+    .masthead {
+     height: 600px;
+     width: 900px;
+    background-attachment: scroll;
+ }
+
+}
+
+@media(max-width: 720px){
+    .masthead {
+     height: 500px;
+     width: 800px;
+     background-attachment: scroll;
+    }
+}
+
+@media (max-width: 580px) {
+    .masthead {
+        height: 400px;
+        width: 600px;
+        background-attachment: scroll;
+        
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .masthead {
+        height:500px ;
+        width:500px;
+    }
+}
