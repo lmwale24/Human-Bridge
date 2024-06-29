@@ -63,7 +63,7 @@
 @media (max-width: 480px) {
     .masthead {
         height:500px ;
-        width:500px;
+        max-width:100%;
     }
 }
 @media (max-width: 430px) {

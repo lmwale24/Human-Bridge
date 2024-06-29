@@ -229,11 +229,11 @@ section {
         } 
         /* Media query for screens smaller than 430px */
             .home {
-                padding: 20px;
+                padding-bottom: 0px !important;
             }
     
             #header-two {
-                font-size: 2em;
+                font-size: 23px !important;
                 line-height: 1.2;
             }
         }
