@@ -221,6 +221,20 @@ section {
         font-size: 1rem;
         letter-spacing: 2px;
     }
+        .btn-primary {
+            font-size: 10px;
+        }
+    
+        /* Media query for screens smaller than 430px */
+        .home {
+            padding-bottom: 0px !important;
+        }
+    
+        #header-two {
+            font-size: 23px !important;
+            line-height: 1.2;
+        }
+        
 }
 
 @media (max-width: 430px) {
