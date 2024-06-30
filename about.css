@@ -131,6 +131,9 @@ section {
     .bottom-box {
         display: none;
     }
+    .section{
+        padding: 0% !important;
+    }
 
     .btn-primary {
         font-size: 10px;
@@ -257,5 +260,5 @@ section {
     margin-top: 10px;
     color: var(--secondary-color);
     transition: color 0.3s ease;
-    /
+    
 }
