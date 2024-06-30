@@ -57,7 +57,7 @@ section {
 
 
 #mainNav {
-    background-color: white;
+    background-color: white !important;
     position: fixed;
     top: 0%;
     left: 0%;
