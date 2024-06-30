@@ -73,7 +73,7 @@ section {
 
 .btn-primary:hover {
     background-color: var(--primary-color);
-    border-color: #F30053;
+    border-color: var(--primary-color);
 }
 
 @media (max-width: 1200px) {
@@ -109,3 +109,111 @@ section {
 }
 
 /* about images */
+.masthead {
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); */
+        font: bold 24px sans-serif;
+            letter-spacing: 5px;
+            color: #2F4F4F;
+}
+
+
+
+.page-heading {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.masthead .bottom-box {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--primary-color);
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Info Boxes Grid */
+.info-box {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+.info-box:hover{
+    transform: translateY(-10px);
+}
+
+.info-box i {
+    font-size: 3em;
+    color: var(--primary-color);
+
+}
+
+.info-box img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+/* Custom styles for Find Out More section */
+/* Custom styles for Find Out More section */
+.find-out-more {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.circle {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    /* Ensure relative positioning for absolute positioning of h4 */
+    overflow: hidden;
+    /* Hide overflow to make sure border doesn't overflow */
+}
+
+.circle:hover img {
+    border-color: var(--primary-color);
+    /* Change border color on hover */
+}
+
+.circle img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    /* Initially transparent border */
+    transition: border-color 0.3s ease;
+    /* Smooth transition for border color */
+}
+
+.circle:hover h4 {
+    color: var(--primary-color);
+    /* Change text color on hover */
+    transition: color 0.3s ease;
+    /* Smooth transition for text color */
+}
+
+.circle h4 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    color: var(--secondary-color);
+    transition: color 0.3s ease;
+    /
+}
