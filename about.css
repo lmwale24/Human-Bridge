@@ -80,11 +80,17 @@ section {
     #header-two {
         font-size: 1.3rem;
     }
+    .bottom-box {
+     display: none;
+    }
 }
 
 @media (max-width: 900px) {
     #header-two {
         font-size: 1.2rem;
+    }
+    .bottom-box {
+        display: none;
     }
 }
 
@@ -92,13 +98,19 @@ section {
     #header-two {
         font-size: 1rem;
     }
+        .bottom-box {
+            display: none;
+        }
 }
 
 @media (max-width: 580px) {
     #header-two {
         font-size: 1rem;
-        letter-spacing: 2px;
+        letter-spacing: 2px;    
     }
+          .bottom-box {
+              display: none;
+}
 }
 
 @media (max-width: 480px) {
