@@ -11,7 +11,6 @@
 }
 
 
-
 .d-flex .btn.btn-primary.text-uppercase{
     margin-top: 5%;
 }
@@ -52,7 +51,7 @@ section {
 
 
 #mainNav {
-    background-color: white;
+    background-color: white !important;
     position: fixed;
     top: 0%;
     left: 0%;
@@ -280,6 +279,10 @@ section {
         font-size: 1.2rem;
         background-attachment: scroll;
     }
+        .navbar-nav .nav-item .nav-link:hover::after {
+         display: none;
+    
+        }
 
 
 
