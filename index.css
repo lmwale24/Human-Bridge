@@ -176,7 +176,7 @@ section {
 
 
 .navbar-nav .nav-item .nav-link:hover {
-    transform: scale(1.2);
+
     color: var(--primary-color);
 }
 
