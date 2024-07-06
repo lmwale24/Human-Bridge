@@ -72,7 +72,10 @@ body {
 .masthead .subheading {
     font-size: 1.5rem;
 }
-
+.navbar-nav .nav-item .nav-link:hover {
+    transform: scale(1.2);
+    color: var(--primary-color);
+}
 /* cloud style */
 .cloud-text {
     background-color: #fff;

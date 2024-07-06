@@ -9,6 +9,10 @@
     --primary-color: #36C29C;
     --secondary-color: #f2f2f2;
 }
+.navbar-nav .nav-item .nav-link:hover {
+    transform: scale(1.2);
+    color: var(--primary-color);
+}
 
 .homeHeader {
     display: flex;
