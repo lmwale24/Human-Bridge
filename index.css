@@ -412,3 +412,31 @@ section {
     color: #555;
 }
 
+.goal-box {
+    /* background: var(--primary-color); */
+    padding: 30px;
+    border-radius: 15px;
+    border-color: var(--primary-color);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.goal-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.goal-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Custom styles for goals section */
+.goal-box i {
+    color: var(--primary-color);
+}
