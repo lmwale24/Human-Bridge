@@ -9,7 +9,26 @@
     --primary-color: #F30053;
     --secondary-color:#f2f2f2;
 }
+:root {
+    /* Font sizes for different screen sizes */
+    --font-size-lg-section-heading: 3.5rem;
+    --font-size-md-section-heading: 3.0rem;
+    --font-size-sm-section-heading: 2.5rem;
+    --font-size-xs-section-heading: 2rem;
+    --font-size-xxs-section-heading: 1.75rem;
 
+    --font-size-lg-h3: 2.5rem;
+    --font-size-md-h3: 2.25rem;
+    --font-size-sm-h3: 2rem;
+    --font-size-xs-h3: 1.75rem;
+    --font-size-xxs-h3: 1.5rem;
+}
+
+
+ #testimony-Header{
+    font-size: var(--font-size-lg-section-heading) !important ;
+    font-weight: bold;
+ }
 
 .d-flex .btn.btn-primary.text-uppercase{
     margin-top: 5%;
@@ -113,7 +132,7 @@ section {
 }
 
 #help .section-heading {
-    font-size: 2em;
+    /* font-size: var(--font-size-lg-section-heading) !important; */
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -414,7 +433,7 @@ section {
 }
 
 .section-heading {
-    font-size: 2.5rem;
+    font-size: var(--font-size-lg-section-heading) !important;
     margin-bottom: 20px;
     color: #333;
 }
@@ -423,3 +442,60 @@ section {
 .goal-box i {
     color: var(--primary-color);
 }
+
+/* styles for fs header */
+@media (max-width: 1200px) {
+    .section-heading {
+        font-size: var(--font-size-md-section-heading) !important;
+    }
+        #testimony-Header {
+            font-size: 40px !important;
+            font-weight: bold;
+        }
+
+}
+
+@media (max-width: 900px) {
+    .section-heading {
+        font-size: var(--font-size-sm-section-heading) !important;
+    }
+        #testimony-Header {
+            font-size: var(--font-size-sm-section-heading)!important ;
+
+        }
+
+}
+
+@media (max-width: 720px) {
+    .section-heading {
+        font-size: var(--font-size-xs-section-heading) !important;
+    }
+        #testimony-Header {
+            font-size: var(--font-size-xs-section-heading) !important;
+    
+        }
+
+}
+
+@media (max-width: 580px) {
+    .section-heading {
+        font-size: var(--font-size-xxs-section-heading) !important;
+    }
+        #testimony-Header {
+            font-size: var(--font-size-xxs-section-heading) !important;
+    
+        }
+}
+
+@media (max-width: 480px) {
+    .section-heading {
+        font-size: var(--font-size-xxs-section-heading) !important;
+
+    }
+        #testimony-Header {
+            font-size: var(--font-size-xxs-section-heading) !important;
+    
+        }
+
+}
+

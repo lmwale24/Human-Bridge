@@ -10,6 +10,16 @@
     --secondary-color: #f2f2f2;
 }
 
+h1{
+    font-size: 80px !important;
+}
+.section-heading{
+    font-size: 60px !important;
+}
+p.subheading{
+    font-size: 24px !important;
+}
+
 #mainNav .navbar-nav>li.nav-item>a.nav-link {
     color: #2F4F4F;
 }
@@ -236,4 +246,124 @@ footer ul li a:hover {
 .btn-primary:hover {
     background-color: var(--bs-pink);
     border-color: var(--bs-pink);
+}
+
+/* responsiveness  */
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 75px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    h1{
+        font-size: 72px !important;
+        
+    }
+
+    .navbar-nav .nav-item .nav-link:hover::after {
+        display: none;
+
+    }
+
+
+
+
+}
+
+@media (max-width: 720px) {
+    .masthead h1 {
+        font-size: 60px !important;
+        margin-bottom: 10px;
+        margin-right: 200px !important;
+    }
+    .subheading{
+        margin-right: 200px !important
+    }
+}
+
+@media (max-width: 580px) {
+    .masthead h1 {
+        font-size: 48px !important;
+        margin-top: 80px;
+        margin-right: 0px !important;        
+    }
+
+    .subheading{
+        margin-right: 0px !important
+    }
+
+}
+  
+:root {
+    /* Font sizes for different screen sizes */
+    --font-size-lg-section-heading: 3.5rem;
+    --font-size-md-section-heading: 3.0rem;
+    --font-size-sm-section-heading: 2.5rem;
+    --font-size-xs-section-heading: 2rem;
+    --font-size-xxs-section-heading: 1.75rem;
+
+    --font-size-lg-h3: 2.5rem;
+    --font-size-md-h3: 2.25rem;
+    --font-size-sm-h3: 2rem;
+    --font-size-xs-h3: 1.75rem;
+    --font-size-xxs-h3: 1.5rem;
+}
+/* Base styles for headers */
+.section-heading {
+    font-size: var(--font-size-lg-section-heading)!important;
+}
+
+h3 {
+    font-size: var(--font-size-lg-h3)!important;
+}
+
+@media (max-width: 1200px) {
+    .section-heading {
+        font-size: var(--font-size-md-section-heading)!important;
+    }
+
+    h3 {
+        font-size: var(--font-size-md-h3)!important;
+    }
+}
+
+@media (max-width: 900px) {
+    .section-heading {
+        font-size: var(--font-size-sm-section-heading)!important;
+    }
+
+    h3 {
+        font-size: var(--font-size-sm-h3)!important;
+    }
+}
+
+@media (max-width: 720px) {
+    .section-heading {
+        font-size: var(--font-size-xs-section-heading)!important;
+    }
+
+    h3 {
+        font-size: var(--font-size-xs-h3)!important;
+    }
+}
+
+@media (max-width: 580px) {
+    .section-heading {
+        font-size: var(--font-size-xxs-section-heading)!important;
+    }
+
+    h3 {
+        font-size: var(--font-size-xxs-h3)!important;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-heading {
+        font-size: var(--font-size-xxs-section-heading )!important;
+    }
+
+    h3 {
+        font-size: var(--font-size-xxs-h3)!important;
+    }
 }
