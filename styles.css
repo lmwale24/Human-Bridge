@@ -4049,7 +4049,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-    font-size: var(--bs-nav-link-font-size);
+    font-size: 1rem !important;
     font-weight: var(--bs-nav-link-font-weight);
     color: var(--bs-nav-link-color);
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;

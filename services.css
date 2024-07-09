@@ -309,6 +309,7 @@ footer ul li a:hover {
     --font-size-xs-h3: 1.75rem;
     --font-size-xxs-h3: 1.5rem;
 }
+
 /* Base styles for headers */
 .section-heading {
     font-size: var(--font-size-lg-section-heading)!important;

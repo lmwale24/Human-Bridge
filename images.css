@@ -3,9 +3,9 @@
 
 
 .navbar-brand img {
-    /* height: 200px; */
-    /* width: 130px; */
-    transition: transform 0.2s ease-in-out;
+    max-width: 400px;
+    /* Adjust to the maximum size you want */
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
