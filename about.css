@@ -74,6 +74,42 @@ section {
     color: var(--primary-color);
 }
 
+ @media (max-width: 576px) {
+
+     /* Extra small devices (phones, less than 576px) */
+     #mainNav .navbar-nav>li.nav-item>a.nav-link {
+         font-size: 0.8rem !important;
+     }
+ }
+
+ @media (min-width: 577px) and (max-width: 768px) {
+
+     /* Small devices (tablets, 576px and up) */
+     #mainNav .navbar-nav>li.nav-item>a.nav-link {
+         font-size: 0.75 !important;
+     }
+ }
+
+ @media (min-width: 769px) and (max-width: 992px) {
+
+     /* Medium devices (desktops, 768px and up) */
+     #mainNav .navbar-nav>li.nav-item>a.nav-link {
+         font-size: 0.75rem !important;
+     }
+ }
+
+ @media (min-width: 993px) {
+
+     /* Large devices (large desktops, 992px and up) */
+     #mainNav .navbar-nav>li.nav-item>a.nav-link {
+         font-size: 1rem !important;
+     }
+ }
+
+ #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+     color: var(--primary-color);
+ }
+
 
 
 #mainNav {
@@ -100,9 +136,7 @@ section {
     #header-two {
         font-size: 1.3rem;
     }
-    .bottom-box {
-     display: none;
-    }
+
 }
 
 @media (max-width: 900px) {
@@ -326,35 +360,22 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: var(--secondary-color); */
 }
 
 .fact-overlay {
     position: absolute;
     top: 33%;
-    left: 44%;
+    left: 25%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 80%;
     max-width: 600px;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     padding: 40px;
 }
-@media (max-width: 1585px){
-.fact-overlay {
-        position: absolute;
-        top: 40%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 60%;
-        width: 400px;
-        height: auto;
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 40px;
-    }
-}
+
 .section-heading {
     color: var(--primary-color);
     font-size: var(--font-size-md-section-heading);
@@ -389,14 +410,41 @@ section {
 @media (max-width: 991.98px) {
     .fact-overlay {
         padding: 20px;
+        display: none;
     }
 }
 
 @media (max-width: 767.98px) {
     .fact-overlay {
         padding: 15px;
+        display: none;
     }
+         .fact-overlay .section-heading {
+             font-size: 1.75rem;
+     
+         }
+    
+         .fact-overlay .fact-text {
+             font-size: 0.9rem;
+             /* Adjust text size for smaller screens */
+                   }
 }
+
+@media (max-width: 480px) {
+     .fact-overlay {
+            padding: 10px;
+            display: none;
+         }
+    
+    .fact-overlay .section-heading {
+       font-size: 1.5rem;
+    }
+    
+    .fact-overlay .fact-text {
+                 font-size: 0.8rem;
+                 /* Adjust text size for very small screens */
+             }
+         }
 
 /* mediaquerys for font size */
 
@@ -433,3 +481,65 @@ section {
         font-size: var(--font-size-xxs-h3) !important;
     }
 }
+
+
+/* bottom box */
+ .masthead {
+     position: relative;
+     height: 100vh;
+     /* Full viewport height */
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.5);
+     /* Dark overlay */
+     z-index: 1;
+ }
+
+ .page-heading {
+     position: relative;
+     z-index: 2;
+     color: #fff;
+ }
+
+ .bottom-box {
+     position: relative;
+     z-index: 2;
+     background-color: rgba(255, 193, 7, 0.9);
+     /* Semi-transparent background color */
+     color: #000;
+     /* Text color */
+     padding: 20px;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     border: #F6AF00 solid 10px;
+     text-align: center;
+     width: 100%;
+     max-width: 700px;
+     margin-top: 20px;
+ }
+
+ @media (max-width: 768px) {
+     .bottom-box {
+         padding: 15px;
+         font-size: 14px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .bottom-box {
+         padding: 10px;
+         font-size: 12px;
+     }
+ }
