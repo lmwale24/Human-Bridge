@@ -26,11 +26,22 @@
 }
 
 
+.faq-section .card-header {
+    background-color: #fff !important; 
 
+}
+
+.faq-section .card-header:hover{
+    cursor: pointer;
+    background-color: var(--primary-color) !important;
+}
+h3{
+color: #333 !important;
+}
 
 h2{
     font-size: var(--font-size-md-section-heading) !important;
-    color: var(--secondary-color);
+   color:  #333;
 }
 
 .card-header {
@@ -195,3 +206,63 @@ h3{
     /* Primary color for icon */
 }
 
+/* styles for fs header */
+@media (max-width: 1200px) {
+    .section-heading {
+        font-size: var(--font-size-md-section-heading) !important;
+    }
+
+    #testimony-Header {
+        font-size: 40px !important;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .section-heading {
+        font-size: var(--font-size-sm-section-heading) !important;
+    }
+
+    #testimony-Header {
+        font-size: var(--font-size-sm-section-heading) !important;
+
+    }
+
+}
+
+@media (max-width: 720px) {
+    .section-heading {
+        font-size: var(--font-size-xs-section-heading) !important;
+    }
+
+    #testimony-Header {
+        font-size: var(--font-size-xs-section-heading) !important;
+
+    }
+
+}
+
+@media (max-width: 580px) {
+    .section-heading {
+        font-size: var(--font-size-xxs-section-heading) !important;
+    }
+
+    #testimony-Header {
+        font-size: var(--font-size-xxs-section-heading) !important;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .section-heading {
+        font-size: var(--font-size-xxs-section-heading) !important;
+
+    }
+
+    #testimony-Header {
+        font-size: var(--font-size-xxs-section-heading) !important;
+
+    }
+
+}
