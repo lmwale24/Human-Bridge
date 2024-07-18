@@ -25,6 +25,32 @@
 }
 
 
+           .faq-section .card-header {
+               background-color: #f8f9fa !important;
+               cursor: pointer;
+           }
+    
+           .faq-section .card-header h5 {
+               margin-bottom: 0;
+           }
+    
+           .faq-section .card-body {
+               padding: 1rem;
+               /* background-color: #ffffff; */
+           }
+    
+           .faq-section .card {
+               margin-bottom: 10px;
+           }
+    
+           .faq-section .card-header {
+               color: #333;
+           }
+    
+           .faq-section .card-header:hover {
+               background-color: var(--primary-color) !important;
+           }
+
  #testimony-Header{
     font-size: var(--font-size-lg-section-heading) !important ;
     font-weight: bold;

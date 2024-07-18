@@ -1,0 +1,197 @@
+:root {
+    --bs-pink: #d63384;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #0085A1;
+    --bs-cyan: #0dcaf0;
+    --bs-danger: #dc3545;
+    --primary-color: #F30053;
+    --secondary-color: #f2f2f2;
+}
+
+:root {
+    /* Font sizes for different screen sizes */
+    --font-size-lg-section-heading: 3.5rem;
+    --font-size-md-section-heading: 3.0rem;
+    --font-size-sm-section-heading: 2.5rem;
+    --font-size-xs-section-heading: 2rem;
+    --font-size-xxs-section-heading: 1.75rem;
+
+    --font-size-lg-h3: 2.5rem;
+    --font-size-md-h3: 2.25rem;
+    --font-size-sm-h3: 2rem;
+    --font-size-xs-h3: 1.75rem;
+    --font-size-xxs-h3: 1.5rem;
+}
+
+
+
+
+h2{
+    font-size: var(--font-size-md-section-heading) !important;
+    color: var(--secondary-color);
+}
+
+.card-header {
+    background-color: var(--primary-color);
+}
+ .payment-icon {
+     margin-right: 10px;
+ }
+
+body {
+    background-color: #f5f5f5;
+    padding-top: 70px;
+    font-family: serif;
+
+}
+
+.donation-container {
+    margin-top: 90px;
+    margin-bottom: 200px;
+    
+}
+
+.card-header {
+    background-color: var(--primary-color) !important;
+    padding: 20px !important;
+    margin-bottom: 0 !important;
+    border-bottom: none; 
+    align-items: center;
+ 
+}
+
+.text-center {
+    margin: inherit;
+}
+
+.btn-group-toggle .btn {
+    border-radius: 0;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+.payment-methods .custom-control-label {
+    display: flex;
+    align-items: center;
+}
+    
+
+.payment-methods .payment-icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+    
+.container {
+    margin-top: 20px !important;
+    
+}
+
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+h3{
+    color: var(--secondary-color);
+}
+
+
+.fa-stack{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5rem;
+}
+
+
+/* Override Bootstrap container padding */
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Style for the card */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card-header {
+    background-color: #F30053;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Custom styles for the donation amount slider */
+.form-control-range {
+    height: 10px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    -webkit-appearance: none;
+   
+}
+
+.form-control-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #F30053;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.form-control-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #F30053;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.form-control-range::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #F30053;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+/* Style for impact area icons and text */
+.text-center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: inherit;
+    text-align: center !important;
+}
+
+.fa-3x {
+    color: #F30053;
+    /* Primary color for icon */
+}
+

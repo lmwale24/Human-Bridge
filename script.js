@@ -1,14 +1,21 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const langOptions = document.querySelectorAll('.dropdown-item');
+// Wait for the DOM to be fully loaded
+$(document).ready(function() {
+    // Function to update donation amount and parallel sections
+    $('#donationAmount').on('input', function() {
+        var amount = $(this).val();
+        $('#donationValue').text('£' + amount); // Update display of selected amount
 
-    langOptions.forEach(option => {
-        option.addEventListener('click', function(e) {
-            e.preventDefault();
-            const selectedLanguage = this.classList[1]; // Get the language class
-            document.querySelector('.dropdown-toggle').textContent = this.textContent; // Update selected language text
+        // Example calculation (adjust as per your actual conversion rate)
+        var migrantsHelped = amount * 1; // Example: 10 pounds = 1 migrant helped
+        var jobsSecured = amount * 2; // Example: 50 pounds = 1 job secured
+        var housingProvided = amount /2;
+        var mealsServed = amount * 3;  
 
-            // Perform language-specific actions here (if needed)
-            // You can fetch translations, update content, etc.
-        });
+        // Update text parallel to icons
+        $('#migrantsHelped').text(migrantsHelped.toFixed(0) + ' Migrants Helped');
+        $('#jobsSecured').text(jobsSecured.toFixed(0) + ' Jobs Secured');
+        $('#housingProvided').text(housingProvided.toFixed(0) + ' Houses Provided');
+        $('#mealsServed').text(mealsServed.toFixed(0) + ' Meals Served');
+        // Add more updates for other sections as needed
     });
 });
