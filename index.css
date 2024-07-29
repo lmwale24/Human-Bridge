@@ -25,7 +25,99 @@
 }
 
 
-           
+/* btn postioning */
+#home .btn-primary {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+#impact .btn-primary {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* resposnive homesction */
+@media (max-width: 1200px) {
+    .section-heading h2 {
+        font-size: var(--font-size-md-section-heading);
+    }
+
+    .site-heading h1 {
+        font-size: 3rem;
+    }
+
+    .site-heading .subheading {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .section-heading h2 {
+        font-size: var(--font-size-sm-section-heading);
+    }
+
+    .site-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .site-heading .subheading {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .section-heading h2 {
+        font-size: var(--font-size-xs-section-heading);
+    }
+
+    .site-heading h1 {
+        font-size: 2rem;
+    }
+
+    .site-heading .subheading {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .section-heading h2 {
+        font-size: var(--font-size-xxs-section-heading);
+    }
+
+    .site-heading h1 {
+        font-size: 1.75rem;
+    }
+
+    .site-heading .subheading {
+        font-size: 0.75rem;
+    }
+
+    .cloud-text p {
+        font-size: 0.875rem;
+    }
+
+    .btn-primary {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .site-heading .subheading {
+        font-size: 0.75rem;
+    }
+
+    .btn-primary {
+        font-size: 0.75rem;
+    }
+}
+
+
 
  #testimony-Header{
     font-size: var(--font-size-lg-section-heading) !important ;
@@ -34,10 +126,13 @@
 
 .d-flex .btn.btn-primary.text-uppercase{
     margin-top: 5%;
+    display: flex;
+    margin-right: 35%;
 }
 #header-two {
-    font: bold 1.25rem sans-serif;
-    letter-spacing: 5px;
+    font: bold 1.25rem ;
+    font-size: var(--font-size-lg-section-heading) !important;
+    font-style: Open Sans;
     color:#2F4F4F;
     text-align: center;
 }
@@ -391,13 +486,13 @@ section {
 
 
 
-
-
-
 /* Masthead styles */
+
+
 .masthead {
     height: 600px;
     background-size: cover;
+
     background-position: center;
     color: white;
     text-align: center;

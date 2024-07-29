@@ -45,7 +45,7 @@
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton"
                     data-bs-toggle="dropdown" aria-expanded="false">
-                    English <!-- This will dynamically change based on the selected language -->
+                    English 
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <li><a class="dropdown-item FR" href="#">French</a></li>
@@ -57,45 +57,75 @@
             </div>
             </div>
     </nav>
-    <!-- Page Header-->
-    <!-- img for home screen waiting for team -->
-    <header class="masthead" style="background-image: url(assets/img/Pictures/miles-peacock-1gh6oD6aDhs-unsplash.jpg)">
-        <div class="container position-relative px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <div class="site-heading">
-                        <h1 data-translate="header-title">Human Bridge</h1>
-                        <span class="subheading" data-translate="header-subtitle">Dignity, Care & Opportunity for Migrants</span>                        
-                    </div>
-                    <div class="d-flex justify-content-end mb-4">
-                        <a class="btn btn-primary text-uppercase" href="#!">LEARN MORE →</a>
-                    </div>
+<!-- Header Section with Video Background -->
+<header class="masthead position-relative">
+    <video autoplay muted loop style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;">
+        <source src="assets/img/Pictures/4241638-hd_1920_1080_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading text-center text-white">
+                    <h1 data-translate="header-title">Human Bridge</h1>
+                    <span class="subheading" data-translate="header-subtitle">Dignity, Care & Opportunity for Migrants</span>                        
+                </div>
+                <div class="d-flex justify-content-end mb-4">
+                    <a class="btn btn-primary text-uppercase" href="#!">LEARN MORE →</a>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 <!-- Main Section -->
-<section class="home">
+<section class="home" id="home">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 homeHeader">
-                <h2 id="header-two">Human Bridge is a Social enterprise Organisation. We stand for a world in which
-                    migrants are offered equal opportunities for growth and development as the native population. Where
-                    they should integrate into their new homes with dignity and respect.</h2>
+            <!-- Text Section -->
+            <div class="col-lg-8">
+                <div class="section-heading">
+                    <h2 id="section-heading">Human Bridge is a Social Enterprise Organisation.</h2>
+                </div>
+                <div class="cloud-text">
+                    <p>We stand for a world in which migrants are offered equal opportunities for growth and development
+                        as the native population. They should integrate into their new homes with dignity and respect.
+                    </p>
+                </div>
+                <div class="cloud-text">
+                    <p>We champion both individual empowerment and collaborative synergies to secure realistic and
+                        practical support for those experiencing the vulnerabilities of living in foreign lands.</p>
+                </div>
+                <div class="cloud-text">
+                    <p>We champion both individual empowerment and collaborative synergies to secure realistic and
+                        practical support for those experiencing the vulnerabilities of living in foreign lands.</p>
+                </div>
+                <div class="cloud-text">
+                    <p>We stand for a world in which migrants are offered equal opportunities for growth and development
+                        as the native population. They should integrate into their new homes with dignity and respect.
+                    </p>
+                </div>
+
+                <!-- Learn More Button -->
+                <div class="d-flex justify-content-end mb-4">
+                    <a class="btn btn-primary text-uppercase" href="#!">Learn More →</a>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 homeHeader">
-                <h2 id="header-two">We champion both individual empowerment and collaborative synergies to secure the
-                    realistic and practical support for those experiencing the vulnerabilities of living in foreign
-                    lands.</h2>
-            </div>
-        </div>
-    </div>
+            <!-- Images Section -->
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <img src="assets/img/Pictures/hearthands.avif" class="img-fluid rounded larger-img"
+                            alt="Image 1">
+                    </div>
+                    <div class="col-md-12 mb-4">
+                        <img src="assets/img/Pictures/marlis-trio-akbar-eMB60hNHFL8-unsplash (1).jpg"
+                            class="img-fluid rounded larger-img" alt="Image 2">
+                    </div>
 </section>
-<!-- Our Goals section -->
+
+
 <!-- Goals Section -->
-<section id="goals" class="py-5">
+<section id="goals" class="goals">
     <div class="container">
         <div class="row mb-4">
             <div class="col text-center">
@@ -155,6 +185,7 @@
         </div>
     </div>
 </section>
+
 <!-- Impact Statistics Section -->
 <section id="impact" class="bg-light py-5">
     <div class="container text-center">
