@@ -25,13 +25,17 @@
 }
 
 
+/* style for home section images */
+.col-lg-4{
+    margin-top: 65px;
+}
+
 /* btn postioning */
 #home .btn-primary {
     display: inline-block;
     margin-left: 0;
     margin-right: auto;
 }
-
 #impact .btn-primary {
     display: inline-block;
     margin-left: 0;
@@ -117,6 +121,25 @@
     }
 }
 
+
+/* media queireis for images home section */
+
+
+    @media (max-width: 430px) {
+        .img-fluid {
+            width: 300px !important;
+        }
+                #learn-more-btn-desktop {
+                    display: none;
+                }
+        
+                #learn-more-btn-mobile {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+    }
 
 
  #testimony-Header{

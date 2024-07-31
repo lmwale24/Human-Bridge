@@ -19,3 +19,21 @@ $(document).ready(function() {
         // Add more updates for other sections as needed
     });
 });
+
+
+const heaven = " ";
+
+
+const earth =(dark, light)=> {
+    light = "good";
+    dark = undefined;
+    
+}
+
+const manKind = (good, undefined) =>{
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        
+    }
+
+} 
