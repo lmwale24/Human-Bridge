@@ -139,6 +139,9 @@
                     align-items: center;
                     width: 100%;
                 }
+                .home{
+                    padding: 20px 0;
+                }
     }
 
 
