@@ -24,6 +24,54 @@
     --font-size-xxs-h3: 1.5rem;
 }
 
+/* carousel.css or main stylesheet */
+.carousel-img {
+    /* width: 300px; */
+    height: auto;
+    max-height: 500px;
+    /* Adjust as needed */
+    object-fit: cover;
+}
+
+.section-heading h2 {
+    font-size: 2rem;
+    /* Adjust size as needed */
+    margin-bottom: 20px;
+    /* Adjust space below the heading */
+}
+
+.cloud-text {
+    margin-bottom: 20px;
+    /* Adjust space between paragraphs */
+}
+
+.d-flex.justify-content-center {
+    justify-content: center;
+    /* Center the Learn More button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .section-heading h2 {
+        font-size: 1.5rem;
+        /* Smaller heading on smaller screens */
+    }
+
+    .cloud-text {
+        font-size: 0.9rem;
+        /* Smaller text on smaller screens */
+    }
+}
+
+/* slideshow images */
+.carousel-item {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    
+}
+
 
 /* style for home section images */
 .col-lg-4{
