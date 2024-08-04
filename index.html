@@ -21,45 +21,74 @@
     <link rel="stylesheet" href="images.css">
 </head>
 <body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/img/Pictures/logo-WB.png" alt="Human-Bridge.org Logo" style="height: 40px;">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Human Bridge Project</title>
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="images.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/Pictures/logo-WB.png" alt="Human-Bridge.org Logo" style="height: 40px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button type="button"><i class="fas fa-search"></i></button>
+        </div>
+
+        <!-- Bootstrap Language Selector Dropdown -->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                English
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-    
-            <!-- Bootstrap Language Selector Dropdown -->
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    English 
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item FR" href="#">French</a></li>
-                    <li><a class="dropdown-item AE" href="#">Arabic</a></li>
-                    <li><a class="dropdown-item GB" href="#">English</a></li>
-                    <li><a class="dropdown-item ES" href="#">Spanish</a></li>
-                    <li><a class="dropdown-item de" href="#">German</a></li>
-                </ul>
-            </div>
-            </div>
-    </nav>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item FR" href="#">French</a></li>
+                <li><a class="dropdown-item AE" href="#">Arabic</a></li>
+                <li><a class="dropdown-item GB" href="#">English</a></li>
+                <li><a class="dropdown-item ES" href="#">Spanish</a></li>
+                <li><a class="dropdown-item de" href="#">German</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <!-- Header Section with Video Background -->
 <header class="masthead position-relative">
-    <video autoplay muted loop style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;">
+    <video autoplay muted loop
+        style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;">
         <source src="assets/img/Pictures/4241638-hd_1920_1080_30fps.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -68,99 +97,101 @@
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <div class="site-heading text-center text-white">
                     <h1 data-translate="header-title">Human Bridge</h1>
-                    <span class="subheading" data-translate="header-subtitle">Dignity, Care & Opportunity for Migrants</span>                        
+                    <span class="subheading" data-translate="header-subtitle">Dignity, Care & Opportunity for
+                        Migrants</span>
                 </div>
-                <div class="d-flex justify-content-end mb-4">
-                    <a class="btn btn-primary text-uppercase" href="#!">LEARN MORE →</a>
+                <div class="d-flex flex-column align-items-center mb-4">
+                    <a class="btn btn-primary text-uppercase custom-learn-more mb-2" href="#!">FIND SUPPORT NOW</a>
+                    <a class="custom-button" href="#!">
+                        <div>Learn More About Us</div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </header>
-    <section class="home" id="home">
-        <div class="container">
-            <div class="row">
-                <!-- Text Section -->
-                <div class="col-lg-8 offset-lg-2 mb-5 text-center">
-                    <div class="section-heading">
-                        <h2 id="section-heading">Human Bridge is a Social Enterprise Organisation.</h2>
-                    </div>
-                    <div class="cloud-text mb-4">
-                        <p>We stand for a world in which migrants are offered equal opportunities for growth and development
-                            as the native population. They should integrate into their new homes with dignity and respect.
-                        </p>
-                    </div>
-                    <div class="cloud-text mb-4">
-                        <p>We champion both individual empowerment and collaborative synergies to secure realistic and
-                            practical support for those experiencing the vulnerabilities of living in foreign lands.</p>
-                    </div>
-                    <div class="cloud-text mb-4">
-                        <p>We champion both individual empowerment and collaborative synergies to secure realistic and
-                            practical support for those experiencing the vulnerabilities of living in foreign lands.</p>
-                    </div>
-                    <div class="cloud-text mb-4">
-                        <p>We stand for a world in which migrants are offered equal opportunities for growth and development
-                            as the native population. They should integrate into their new homes with dignity and respect.
-                        </p>
-                    </div>
+</body>
+<!-- Home Section -->
+<section class="home" id="home">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <div class="section-heading">
+                    <h2 id="section-heading">Human Bridge is a Social Enterprise Organisation.</h2>
                 </div>
-            </div>
-    
-            <div class="row">
-                <!-- Carousel -->
-                <div class="col-lg-12">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/img/Pictures/hearthands.avif" class="d-block w-100 carousel-img"
-                                    alt="Slide 1">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First Slide</h5>
-                                    <p>First slide description.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/Pictures/marlis-trio-akbar-eMB60hNHFL8-unsplash (1).jpg"
-                                    class="d-block w-100 carousel-img" alt="Slide 2">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second Slide</h5>
-                                    <p>Second slide description.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/img/Pictures/wylly-suhendra-Swk4G_xi_uM-unsplash.jpg"
-                                    class="d-block w-100 carousel-img" alt="Slide 3">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third Slide</h5>
-                                    <p>Third slide description.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Learn More Button for desktop -->
-            <div class="d-flex justify-content-center mb-4 d-none d-lg-flex">
-                <a class="btn btn-primary text-uppercase" href="#!">Learn More →</a>
             </div>
         </div>
-    </section>
+        <div class="row text-center">
+            <div class="col-lg-3 mb-4">
+                <div class="cloud-text">
+                    <p>We stand for a world in which migrants are offered equal opportunities for growth and development
+                        as the native population. They should integrate into their new homes with dignity and respect.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="cloud-text">
+                    <p>We champion both individual empowerment and collaborative synergies to secure realistic and
+                        practical support for those experiencing the vulnerabilities of living in foreign lands.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="cloud-text">
+                    <p>We champion both individual empowerment and collaborative synergies to secure realistic and
+                        practical support for those experiencing the vulnerabilities of living in foreign lands.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="cloud-text">
+                    <p>We stand for a world in which migrants are offered equal opportunities for growth and development
+                        as the native population. They should integrate into their new homes with dignity and respect.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+<!-- Carousel -->
+<div class="col-lg-12">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/Pictures/hearthands.avif" class="d-block w-100 carousel-img" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#!" class="btn btn-carousel">VIEW OUR GALLERY</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Pictures/marlis-trio-akbar-eMB60hNHFL8-unsplash (1).jpg"
+                    class="d-block w-100 carousel-img" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#!" class="btn btn-carousel">VIEW OUR GALLERY</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/Pictures/wylly-suhendra-Swk4G_xi_uM-unsplash.jpg"
+                    class="d-block w-100 carousel-img" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <a href="#!" class="btn btn-carousel">VIEW OUR GALLERY</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</div>
+    
+          
 <!-- Impact Statistics Section -->
 <section id="impact" class="bg-light py-5">
     <div class="container text-center">
@@ -171,7 +202,7 @@
                 <div class="card h-100">
                     <div class="card-body">
                         <h3 class="card-title">5000+</h3>
-                        <p class="card-text">Migrants Helped  </p>
+                        <p class="card-text">Migrants Helped</p>
                         <i id="IconHandshake" class="fa-solid fa-handshake-angle"></i>
                     </div>
                 </div>
@@ -197,24 +228,45 @@
         </div>
     </div>
 
-    <!-- images  -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="assets/img/Pictures/jud-mackrill-Of_m3hMsoAA-unsplash.jpg" class="img-fluid mb-3" alt="Image 1">
-            </div>
-            <div class="col-md-4">
-                <img src="assets/img/Pictures/maria-oswalt-ZANucjd3dW0-unsplash.jpg" class="img-fluid mb-3" alt="Image 2">
-            </div>
-            <div class="col-md-4">
-                <img src="assets/img/Pictures/barbara-zandoval-AFWTg-5i7OY-unsplash.jpg" class="img-fluid mb-3" alt="Image 3">
+    <!-- Images with gradient and border radius -->
+<!-- Images with gradient and border radius -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="image-container bg-color-1">
+                <img src="assets/img/Pictures/jud-mackrill-Of_m3hMsoAA-unsplash.jpg" class="img-fluid mb-3"
+                    alt="Image 1">
+                <div class="text-overlay">
+                    <div class="large-text">5000+</div>
+                    <div class="small-text">Migrants Helped</div>
+                </div>
             </div>
         </div>
-        <div class="d-flex justify-content-end mb-4">
-            <a class="btn btn-primary text-uppercase" href="#!">View Gallary →</a>
+        <div class="col-md-4">
+            <div class="image-container bg-color-2">
+                <img src="assets/img/Pictures/maria-oswalt-ZANucjd3dW0-unsplash.jpg" class="img-fluid mb-3"
+                    alt="Image 2">
+                <div class="text-overlay">
+                    <div class="large-text">200+</div>
+                    <div class="small-text">Volunteers</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="image-container bg-color-3">
+                <img src="assets/img/Pictures/barbara-zandoval-AFWTg-5i7OY-unsplash.jpg" class="img-fluid mb-3"
+                    alt="Image 3">
+                <div class="text-overlay">
+                    <div class="large-text">50</div>
+                    <div class="small-text">Community Events</div>
+                </div>
+            </div>
         </div>
     </div>
-</section>
+    <div class="d-flex justify-content-end mb-4">
+        <a class="btn btn-primary text-uppercase" href="#!">View Gallery →</a>
+    </div>
+</div>
 <!-- How You Can Help Section -->
 <section id="help" class="py-5">
     <div class="container text-center">
