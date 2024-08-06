@@ -37,9 +37,10 @@
 }
 
 .section-heading h2 {
-    font-size: 2rem;
+    
     /* Adjust size as needed */
     margin-bottom: 20px;
+    font-size: var(--font-size-md-h3);
     /* Adjust space below the heading */
 }
 
@@ -99,15 +100,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
 }
 
-.background-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
+
 
 .masthead .site-heading h1 {
     text-align: center;
@@ -187,6 +180,17 @@
     font-weight: 800;
 }
 
+/* styling for search bar margin for menu */
+
+@media (max-width: 990px) {
+    .btn-carousel{
+        font-size: 10px !important;
+    }
+
+    }
+   
+  
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -195,6 +199,10 @@
     background: rgba(250, 250, 250, 0.93);
     border-radius: 10px;
     margin-right: 36px;
+    flex-grow: 1;
+    max-width: 400px;
+    order: 2;
+    /* Ensure it stays after the menu in smaller screens */
 }
 
 .search-bar input {
@@ -217,6 +225,8 @@
 
 .dropdown {
     margin-left: auto;
+    order: 3;
+        /* Ensure it stays after the search bar in smaller screens */
 }
 
 
@@ -267,7 +277,7 @@
 }
 
 .home .section-heading h2 {
-    font-size: 2rem;
+    font-size: var(--font-size-md-h3);
     font-weight: 700;
     color: #2f4f4f;
     margin-bottom: 20px;
@@ -281,16 +291,12 @@
 /* Grid Paragraph Styling */
 .home .cloud-text {
     background-color: #f9f9f9;
-    /* Light background for better contrast */
     border-radius: 10px;
-    /* Rounded corners */
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Soft shadow for depth */
     border: 2px solid #ddd;
-    /* Light border for outline effect */
     transition: all 0.3s ease;
-    /* Smooth transition for hover effects */
+    
 }
 
 /* Hover Effect for Grid Paragraphs */
@@ -547,7 +553,7 @@
 }
 #header-two {
     font: bold 1.25rem ;
-    font-size: var(--font-size-lg-section-heading) !important;
+    font-size: var(--font-size-md-h3) !important;
     font-style: Open Sans;
     color:#2F4F4F;
     text-align: center;
@@ -1003,7 +1009,7 @@ section {
 }
 
 .section-heading {
-    font-size: var(--font-size-lg-section-heading) !important;
+    font-size: var(--font-size-md-h3) !important;
     margin-bottom: 20px;
     color: #333;
 }
@@ -1068,4 +1074,5 @@ section {
         }
 
 }
+
 
