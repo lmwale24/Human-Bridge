@@ -139,22 +139,6 @@
     background: #d20049;
 }
 
-.custom-button {
-    width: 304px;
-    height: 54px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background: white;
-    color: #F57CA6;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.88px;
-    text-transform: uppercase;
-    border: none;
-}
 
 /* Custom CSS for Navigation Bar */
 .navbar {
@@ -654,8 +638,8 @@ section {
 }
 
 .image-container img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100vh;
     border-radius: 20px;
     opacity: 0.55;
     /* Adjust opacity as needed */
@@ -1065,9 +1049,36 @@ section {
 
 @media (max-width: 480px) {
     .section-heading {
-        font-size: var(--font-size-xxs-section-heading) !important;
+        font-size: var(--font-size-sm-h3) !important;
 
     }
+
+    .image-container{
+        margin-bottom: 1rem;
+    }
+        .image-container img{
+            max-width: 100%;
+        }
+
+    .masthead .btn-primary.custom-learn-more{
+        padding: 20px 8px; 
+        font-size: 13px;
+/* for size of the button */
+    }
+    .custom-button{
+        padding: 0.5rem 1rem !important;
+            /* Smaller padding for smaller screens */
+            font-size: 0.875rem !important;
+            /* Smaller font size for smaller screens */
+
+    }
+    h2{
+        font-size: var(--font-size-sm-h3) !important;
+    }
+    #home{
+        padding: 15px 0 ;
+    }
+    
         #testimony-Header {
             font-size: var(--font-size-xxs-section-heading) !important;
     
