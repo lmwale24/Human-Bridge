@@ -75,7 +75,7 @@
     /* Ensure background color is applied */
     color: #F57CA6 !important;
     /* Ensure text color is applied */
-    font-size: 12px !important;
+    font-size: 16px !important;
     /* Ensure font size is applied */
     font-family: 'Open Sans', sans-serif !important;
     /* Ensure font family is applied */
@@ -96,7 +96,8 @@
     border: none !important;
     /* Optional: Add border to match text color */
     box-shadow: none;
-    /* Remove any box shadow from button styles */
+    margin-top:inherit;
+    
 }
 /* Custom CSS for Hero Section */
 .masthead {
@@ -128,6 +129,12 @@
     word-wrap: break-word;
 }
 
+
+
+.masthead .btn-primary.custom-learn-more:hover {
+    background: #d20049;
+}
+
 .masthead .btn-primary.custom-learn-more {
     padding: 18px 64px;
     background: #F30053;
@@ -140,30 +147,24 @@
     letter-spacing: 0.88px;
     margin-bottom: 20px;
     font-weight: 700 !important;
-        /* Ensure font weight is applied */
-        letter-spacing: 0.88px !important;
-        /* Ensure letter spacing is applied */
-        text-align: center;
-        /* Center text inside the div */
-        padding: 10px 15px;
-        /* Add padding if needed */
-        border-radius: 5px;
-        /* Optional: Add border radius for rounded corners */
-        display: inline-block;
-        /* Ensure the div behaves like a button */
-        text-decoration: none;
-        /* Remove underline if any */
-        border: none !important;
-        /* Optional: Add border to match text color */
-        box-shadow: none;
-        /* Remove any box shadow from button styles */
+    /* Ensure font weight is applied */
+    letter-spacing: 0.88px !important;
+    /* Ensure letter spacing is applied */
+    text-align: center;
+    /* Center text inside the div */
+    padding: 10px 15px;
+    /* Add padding if needed */
+    border-radius: 5px;
+    /* Optional: Add border radius for rounded corners */
+    display: inline-block;
+    /* Ensure the div behaves like a button */
+    text-decoration: none;
+    /* Remove underline if any */
+    border: none !important;
+    /* Optional: Add border to match text color */
+    box-shadow: none;
+    /* Remove any box shadow from button styles */
 }
-
-.masthead .btn-primary.custom-learn-more:hover {
-    background: #d20049;
-}
-
-
 /* Custom CSS for Navigation Bar */
 .navbar {
     width: 100%;
@@ -447,6 +448,33 @@ body{
     display: inline-block;
     margin-left: 0;
     margin-right: auto;
+    padding: 18px 64px;
+        background: #F30053;
+        border: none;
+        color: white;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.88px;
+        margin-bottom: 20px;
+        font-weight: 700 !important;
+        /* Ensure font weight is applied */
+        letter-spacing: 0.88px !important;
+        /* Ensure letter spacing is applied */
+        text-align: center;
+        /* Center text inside the div */
+        padding: 10px 15px;
+        /* Add padding if needed */
+        border-radius: 5px;
+        /* Optional: Add border radius for rounded corners */
+        display: inline-block;
+        /* Ensure the div behaves like a button */
+        text-decoration: none;
+        /* Remove underline if any */
+        border: none !important;
+        /* Optional: Add border to match text color */
+        box-shadow: none;
 }
 
 /* resposnive homesction */
@@ -1182,9 +1210,28 @@ section {
 }
     .d-flex .btn.btn-primary.text-uppercase {
     font-size: x-small;
+    margin-left: 100px !important;
 }
     #customButton{
         font-size: x-small !important;
+        font-weight: 700 !important;
+            /* Ensure font weight is applied */
+            letter-spacing: 0.88px !important;
+            /* Ensure letter spacing is applied */
+            text-align: center;
+            /* Center text inside the div */
+            padding: 10px 15px;
+            /* Add padding if needed */
+            border-radius: 5px !important;
+            /* Optional: Add border radius for rounded corners */
+            display: inline-block;
+            /* Ensure the div behaves like a button */
+            text-decoration: none;
+            /* Remove underline if any */
+            border: none !important;
+            /* Optional: Add border to match text color */
+            box-shadow: none;
+            /* Remove any box shadow from button styles */
     }
 #help .card-text {
     font-size: x-small !important;
