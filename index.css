@@ -69,30 +69,35 @@
 }
 
 
-/* learn more figma css */
-/* Custom Button */
-.custom-button {
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background: white;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex;
+
+#customButton {
+    background: white !important;
+    /* Ensure background color is applied */
+    color: #F57CA6 !important;
+    /* Ensure text color is applied */
+    font-size: 12px !important;
+    /* Ensure font size is applied */
+    font-family: 'Open Sans', sans-serif !important;
+    /* Ensure font family is applied */
+    font-weight: 700 !important;
+    /* Ensure font weight is applied */
+    letter-spacing: 0.88px !important;
+    /* Ensure letter spacing is applied */
     text-align: center;
+    /* Center text inside the div */
+    padding: 10px 15px;
+    /* Add padding if needed */
+    border-radius: 5px;
+    /* Optional: Add border radius for rounded corners */
+    display: inline-block;
+    /* Ensure the div behaves like a button */
+    text-decoration: none;
+    /* Remove underline if any */
+    border: none !important;
+    /* Optional: Add border to match text color */
+    box-shadow: none;
+    /* Remove any box shadow from button styles */
 }
-
-.custom-button div {
-    color: #F57CA6;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.88px;
-    word-wrap: break-word;
-}
-
 /* Custom CSS for Hero Section */
 .masthead {
     width: 100%;
@@ -134,6 +139,24 @@
     text-transform: uppercase;
     letter-spacing: 0.88px;
     margin-bottom: 20px;
+    font-weight: 700 !important;
+        /* Ensure font weight is applied */
+        letter-spacing: 0.88px !important;
+        /* Ensure letter spacing is applied */
+        text-align: center;
+        /* Center text inside the div */
+        padding: 10px 15px;
+        /* Add padding if needed */
+        border-radius: 5px;
+        /* Optional: Add border radius for rounded corners */
+        display: inline-block;
+        /* Ensure the div behaves like a button */
+        text-decoration: none;
+        /* Remove underline if any */
+        border: none !important;
+        /* Optional: Add border to match text color */
+        box-shadow: none;
+        /* Remove any box shadow from button styles */
 }
 
 .masthead .btn-primary.custom-learn-more:hover {
@@ -526,6 +549,7 @@ body{
                 .home{
                     padding: 20px 0;
                 }
+                
     }
 
 
@@ -1156,12 +1180,18 @@ section {
     #home {
         padding:0px;
 }
+    .d-flex .btn.btn-primary.text-uppercase {
+    font-size: x-small;
+}
+    #customButton{
+        font-size: x-small !important;
+    }
 #help .card-text {
-    font-size: smaller !important;
+    font-size: x-small !important;
 }
 #impact .btn-primary {
-    font-size: small;
-    margin-left: 10px;
+    font-size: x-small !important;
+    margin-left: 15px;
 
 }
 }
