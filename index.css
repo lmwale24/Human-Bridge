@@ -1194,6 +1194,19 @@ section {
     margin-left: 15px;
 
 }
+    p{
+        font-size: x-small !important;
+    }
+        .col-md-4 {
+            font-size: x-small !important;
+
+        }
+        .list-inline-item{
+            font-size: small;
+        }
+        .small-text{
+            font-size: small;
+        }
 }
 
 /* Medium screens (max-width: 580px) */
