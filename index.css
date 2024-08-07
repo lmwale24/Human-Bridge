@@ -1210,8 +1210,10 @@ section {
 }
     .d-flex .btn.btn-primary.text-uppercase {
     font-size: x-small;
-    margin-left: 100px !important;
+    margin-left: 115px !important;
 }
+
+
     #customButton{
         font-size: x-small !important;
         font-weight: 700 !important;
@@ -1232,6 +1234,9 @@ section {
             /* Optional: Add border to match text color */
             box-shadow: none;
             /* Remove any box shadow from button styles */
+    }
+    .mb-4{
+        margin-right: 70px;
     }
 #help .card-text {
     font-size: x-small !important;
