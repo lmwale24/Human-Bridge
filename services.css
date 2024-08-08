@@ -10,6 +10,42 @@
     --secondary-color: #f2f2f2;
 }
 
+
+/* styles.css */
+.service-card {
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.service-card .card-body {
+    padding: 20px;
+}
+
+.service-card .btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.service-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
 h1{
     font-size: 80px !important;
 }
