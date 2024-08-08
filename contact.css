@@ -148,4 +148,37 @@ section {
     }
 }
 
-/* about */
+.btn-primary {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 18px 64px;
+    background: var(--primary-color);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.88px;
+    margin-bottom: 20px;
+    font-weight: 700 !important;
+    /* Ensure font weight is applied */
+    letter-spacing: 0.88px !important;
+    /* Ensure letter spacing is applied */
+    text-align: center;
+    /* Center text inside the div */
+    padding: 10px 15px;
+    /* Add padding if needed */
+    border-radius: 5px;
+    /* Optional: Add border radius for rounded corners */
+    display: inline-block;
+    /* Ensure the div behaves like a button */
+    text-decoration: none;
+    /* Remove underline if any */
+    border: none !important;
+    /* Optional: Add border to match text color */
+    box-shadow: none;
+
+}

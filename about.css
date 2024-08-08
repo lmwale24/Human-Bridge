@@ -172,6 +172,36 @@ section {
 
 .btn-primary {
     transition: background-color 0.3s ease, border-color 0.3s ease;
+    display: inline-block;
+        margin-left: 0;
+        margin-right: auto;
+        padding: 18px 64px;
+        background: var(--primary-color);
+        border: none;
+        color: white;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.88px;
+        margin-bottom: 20px;
+        font-weight: 700 !important;
+        /* Ensure font weight is applied */
+        letter-spacing: 0.88px !important;
+        /* Ensure letter spacing is applied */
+        text-align: center;
+        /* Center text inside the div */
+        padding: 10px 15px;
+        /* Add padding if needed */
+        border-radius: 5px;
+        /* Optional: Add border radius for rounded corners */
+        display: inline-block;
+        /* Ensure the div behaves like a button */
+        text-decoration: none;
+        /* Remove underline if any */
+        border: none !important;
+        /* Optional: Add border to match text color */
+        box-shadow: none;
 
 }
 
@@ -506,7 +536,7 @@ section {
 @media (max-width: 900px) {
 
     h3 {
-        font-size: var(--font-size-sm-h3) !important;
+        font-size: 36px !important;
     }
 }
 
@@ -583,6 +613,7 @@ section {
          padding: 15px;
          font-size: 14px;
      }
+
  }
 
  @media (max-width: 480px) {
@@ -590,4 +621,13 @@ section {
          padding: 10px;
          font-size: 12px;
      }
+         .btn-primary {
+             margin-left: 70px;
+         }
+ }
+ @media (max-width: 430px) {
+   .btn-primary{
+    margin-left: 60px;
+   }
+
  }
